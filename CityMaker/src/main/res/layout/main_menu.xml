@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/LL_with_recycler_view"
+    android:background="@color/colorMain"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/rv"
+        />
+    <!-- для телефона 6 ?? -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="6"
+        android:gravity="bottom"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/CreateNew"
+            android:onClick="btnClick"
+            android:text="@string/create_new"
+            android:textSize="@dimen/spvalue25"
+            android:background="@drawable/design"
+            android:textColor="@drawable/text_anim"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/Settings"
+            android:onClick="btnClick"
+            android:text="@string/settings"
+            android:textSize="@dimen/spvalue25"
+            android:textColor="@drawable/text_anim"
+            android:background="@drawable/design"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</LinearLayout>

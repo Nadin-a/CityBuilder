@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/city_view"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="7"
+            android:rowCount="4">
+
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn10"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn11"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn12"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn13"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn14"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn15"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn16"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn17"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn18"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn19"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn20"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn21"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn22"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn23"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn24"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn25"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn26"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn27"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+            <Button
+                android:id="@+id/btn28"
+                android:layout_width="@dimen/size_title_tablet"
+                android:layout_height="@dimen/size_title_tablet" />
+
+
+
+
+
+        </GridLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/city_view_rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="cityClick"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/current_city_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/spvalue40"
+                    android:textStyle="bold"
+                    tools:text="Name" />
+
+                <TextView
+                    android:id="@+id/current_city_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/spvalue30"
+                    android:textStyle="bold"
+                    tools:text="Level" />
+
+                <TextView
+                    android:id="@+id/current_city_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/spvalue30"
+                    android:textStyle="bold"
+                    tools:text="type" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/current_settings"
+                android:layout_width="@dimen/size_settings"
+                android:layout_height="@dimen/size_settings"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/coleso_pic" />
+
+
+            <Button
+                android:id="@+id/next_step"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/arrow_pic"
+                android:onClick="nextClick" />
+
+
+            <TextView
+                android:id="@+id/current_count_of_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/current_mood"
+                android:textStyle="bold"
+                android:textSize="@dimen/spvalue20"
+                tools:text="Count of money" />
+
+            <TextView
+                android:id="@+id/current_ecology"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/next_step"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:textSize="@dimen/spvalue20"
+                tools:text="economy" />
+
+            <TextView
+                android:id="@+id/current_mood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/current_count_of_citiens"
+                android:textStyle="bold"
+                android:textSize="@dimen/spvalue20"
+                tools:text="Mood" />
+
+            <TextView
+                android:id="@+id/current_count_of_citiens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/current_science"
+                android:textStyle="bold"
+                android:textSize="@dimen/spvalue20"
+                tools:text="Citiens" />
+
+            <TextView
+                android:id="@+id/current_count_of_tourists"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/current_ecology"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:textSize="@dimen/spvalue20"
+                tools:text="Tourists" />
+
+            <TextView
+                android:id="@+id/current_science"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/current_count_of_tourists"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:textSize="@dimen/spvalue20"
+                tools:text="Science" />
+
+            <TextView
+                android:id="@+id/current_step"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/next_step"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:textSize="@dimen/spvalue30"
+                android:textStyle="bold"
+                tools:text="Step" />
+
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>

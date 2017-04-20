@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMain"
+    android:id="@+id/add_new_city">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp20" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_name"
+        android:textSize="@dimen/spvalue25"
+        android:layout_gravity="center"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp20" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:textSize="@dimen/spvalue30"
+        android:id="@+id/my_city_new_name"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp20" />
+
+
+
+</LinearLayout>

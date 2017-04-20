@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/city_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMain"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/open_shop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/design"
+        android:onClick="btnClick"
+        android:text="@string/shop"
+        android:textColor="@drawable/text_anim"
+        android:textSize="@dimen/spvalue30" />
+
+    <Button
+        android:id="@+id/back_to_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/design"
+        android:onClick="btnClick"
+        android:text="@string/back_to_menu"
+        android:textColor="@drawable/text_anim"
+        android:textSize="@dimen/spvalue30" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/music_switch_compat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:checked="false"
+        android:textSize="@dimen/dp30"
+        android:text="@string/musicON"
+        android:textOff="OFF"
+        android:textOn="ON"
+        />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/sounds_switch_compat"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:textSize="@dimen/dp30"
+        android:text="@string/sounds"
+        android:textOff="OFF"
+        android:textOn="ON"
+        />
+
+
+</LinearLayout>

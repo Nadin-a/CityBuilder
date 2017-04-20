@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/no_constr_ll"
+    android:gravity="center"
+    android:background="@color/colorMain"
+    android:onClick="layoutClick">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/spvalue40"
+        android:id="@+id/no_constr_tv"
+        android:text="@string/no_constructions"/>
+    <TextView
+
+        android:textSize="@dimen/spvalue30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/propose_shop"/>
+
+
+    <TextView
+
+        android:textSize="@dimen/spvalue30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/press_to_screen"/>
+
+
+</LinearLayout>

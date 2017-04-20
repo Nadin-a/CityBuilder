@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/choiseLL"
+    android:background="@color/colorInfo"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dp60"
+        android:paddingTop="@dimen/dp60"
+        android:id="@+id/label_about_choise"
+        android:text="@string/choose_direction"
+        android:textSize="@dimen/spvalue40" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/dp10"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/choise_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorButton"
+            android:textSize="@dimen/spvalue15"
+            android:layout_weight="1"
+            android:textColor="@drawable/text_anim"
+            android:onClick="choise_click" />
+
+        <Space
+            android:layout_width="@dimen/dp10"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/choise_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorButton"
+            android:textSize="@dimen/spvalue15"
+            android:layout_weight="1"
+            android:textColor="@drawable/text_anim"
+            android:onClick="choise_click" />
+        <Space
+            android:layout_width="@dimen/dp10"
+            android:layout_height="match_parent" />
+
+
+        <Button
+            android:id="@+id/choise_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/text_anim"
+            android:background="@color/colorButton"
+            android:textSize="@dimen/spvalue15"
+            android:layout_weight="1"
+            android:onClick="choise_click" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

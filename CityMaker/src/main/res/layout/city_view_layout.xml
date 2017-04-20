@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/city_view"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/grid_city"
+            android:columnCount="7"
+            android:rowCount="4">
+
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile"
+                />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn10"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+
+            <Button
+                android:id="@+id/btn11"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn12"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn13"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn14"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn15"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn16"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn17"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn18"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn19"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn20"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn21"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn22"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn23"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn24"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn25"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn26"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+            android:id="@+id/btn27"
+            android:layout_width="@dimen/size_title_mobile"
+            android:layout_height="@dimen/size_title_mobile" />
+
+            <Button
+                android:id="@+id/btn28"
+                android:layout_width="@dimen/size_title_mobile"
+                android:layout_height="@dimen/size_title_mobile" />
+
+
+
+
+
+
+        </GridLayout>
+
+
+           <!-- <Space
+                android:layout_width="@dimen/dp20"
+                android:layout_height="match_parent" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="vertical">
+
+
+
+                <Button
+                    android:id="@+id/current_settings"
+                    android:onClick="btnClick"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="@dimen/size_settings"
+                    android:layout_height="@dimen/size_settings"
+                    android:background="@drawable/coleso_pic" />
+
+                <Button
+                    android:id="@+id/get_title"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="@dimen/size_settings"
+                    android:layout_height="@dimen/size_settings"
+                    android:background="@drawable/samosval_pic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="info"
+                    android:id="@+id/information"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/spvalue15"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/colorButton"
+                    />
+
+                <TextView
+                    android:id="@+id/current_step"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/spvalue15"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/colorButton"
+                    android:textStyle="bold"
+                    tools:text="Step" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/padding_size" />
+
+                <Button
+                    android:id="@+id/next_step"
+                    android:layout_width="@dimen/size_settings"
+                    android:layout_height="@dimen/size_settings"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/arrow_pic"
+                    android:onClick="nextClick" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/spvalue15"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/colorButton"
+                    android:textStyle="bold"
+                    android:visibility="invisible"
+                    android:text="@string/taxes" />
+
+                <TextView
+                    android:id="@+id/taxes_int"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/spvalue15"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/colorButton"
+                    android:textStyle="bold"
+                   />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/spvalue15"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/colorButton"
+                    android:textStyle="bold"
+                    android:id="@+id/effect_info"
+                 />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--android:onClick="cityClick"-->
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/city_view_rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll_information"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/current_city_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/spvalue30"
+                    android:paddingLeft="@dimen/dpvalue_min"
+                    android:textStyle="bold"
+
+                    tools:text="Name"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:shadowColor="@color/text_shadow_white"
+                    android:shadowDx="-2"
+                    android:shadowDy="-2"
+                    android:shadowRadius="1"
+                    />
+
+                <TextView
+                    android:id="@+id/current_city_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/spvalue20"
+                    android:paddingLeft="@dimen/dpvalue_min"
+                    android:textStyle="bold"
+                    tools:text="Level"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:shadowColor="@color/text_shadow_white"
+                    android:shadowDx="-2"
+                    android:shadowDy="-2"
+                    android:shadowRadius="1"/>
+
+                <TextView
+                    android:id="@+id/current_city_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/dpvalue_min"
+                    android:textSize="@dimen/spvalue20"
+                    android:textStyle="bold"
+                    tools:text="type"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:shadowColor="@color/text_shadow_white"
+                    android:shadowDx="-2"
+                    android:shadowDy="-2"
+                    android:shadowRadius="1"/>
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/current_count_of_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/space_size"
+                android:paddingLeft="@dimen/dpvalue_min"
+                android:textSize="@dimen/spvalue15"
+                tools:text="Count of money"
+                android:layout_below="@+id/ll_information"
+                android:textColor="@color/colorPrimaryDark"
+                android:shadowColor="@color/text_shadow_white"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="1"
+                />
+
+            <TextView
+                android:id="@+id/current_count_of_citiens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dpvalue_min"
+                android:layout_below="@+id/current_count_of_money"
+                android:textStyle="bold"
+                android:textSize="@dimen/spvalue15"
+                tools:text="Citiens"
+                android:textColor="@color/colorPrimaryDark"
+                android:shadowColor="@color/text_shadow_white"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="1"/>
+
+            <TextView
+                android:id="@+id/current_count_of_tourists"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:paddingLeft="@dimen/dpvalue_min"
+                android:textSize="@dimen/spvalue15"
+                tools:text="Tourists"
+                android:layout_below="@+id/current_count_of_citiens"
+                android:textColor="@color/colorPrimaryDark"
+                android:shadowColor="@color/text_shadow_white"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="1"
+                />
+
+            <TextView
+                android:id="@+id/current_ecology"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:paddingLeft="@dimen/dpvalue_min"
+                android:textSize="@dimen/spvalue15"
+                android:layout_below="@+id/current_count_of_tourists"
+                tools:text="economy"
+                android:textColor="@color/colorPrimaryDark"
+                android:shadowColor="@color/text_shadow_white"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="1"/>
+
+
+            <TextView
+                android:id="@+id/current_science"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:layout_below="@id/current_ecology"
+                android:paddingLeft="@dimen/dpvalue_min"
+                android:textSize="@dimen/spvalue15"
+                tools:text="Science"
+                android:textColor="@color/colorPrimaryDark"
+                android:shadowColor="@color/text_shadow_white"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="1"/>
+
+
+            <TextView
+                android:id="@+id/current_mood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_below="@+id/current_science"
+                android:paddingLeft="@dimen/dpvalue_min"
+                android:textSize="@dimen/spvalue15"
+                android:paddingBottom="@dimen/dp10"
+                tools:text="Mood"
+                android:textColor="@color/colorPrimaryDark"
+                android:shadowColor="@color/text_shadow_white"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="1"/>
+
+
+
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/end_game"
+    android:onClick="layoutClick"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorMessageInfo"
+        android:layout_margin="@dimen/dp30"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:alpha="0.8">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="What happend"
+            android:id="@+id/what_happendTV"
+            android:textSize="@dimen/spvalue50"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Reason"
+            android:id="@+id/reasonTV"
+            android:textSize="@dimen/spvalue20"
+            />
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rowCount="2"
+            android:columnCount="2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/countConstr"
+            android:textSize="@dimen/spvalue20"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="24"
+                android:id="@+id/countConstrTV"
+                android:textSize="@dimen/spvalue20"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:text="@string/countSteps"
+                android:textSize="@dimen/spvalue20"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="4"
+                android:id="@+id/countStepsTV"
+                android:textSize="@dimen/spvalue20"
+                />
+        </GridLayout>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Message"
+        android:id="@+id/message_about_end_gameTV"
+        android:textSize="@dimen/spvalue20"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/press_to_screen"
+            android:textSize="@dimen/spvalue20"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

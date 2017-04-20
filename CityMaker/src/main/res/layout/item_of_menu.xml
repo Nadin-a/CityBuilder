@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cv"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/city_picture"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/city_name_textview"
+            android:layout_toRightOf="@+id/city_picture"
+            android:layout_alignParentTop="true"
+            tools:text="Название"
+            android:textSize="@dimen/spvalue30"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/count_of_money_text_view"
+            android:layout_toRightOf="@+id/city_picture"
+            tools:text="Сколько денег"
+            android:layout_below="@+id/city_name_textview"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/level_of_city_text_view"
+            android:layout_toRightOf="@+id/city_picture"
+            tools:text="Уровень города"
+            android:layout_below="@+id/count_of_money_text_view"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/type_of_city_text_view"
+            android:layout_toRightOf="@+id/city_picture"
+            tools:text="Уровень города"
+            android:layout_below="@+id/level_of_city_text_view"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

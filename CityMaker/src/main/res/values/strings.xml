@@ -1,0 +1,291 @@
+<resources>
+    <string name="app_name">City Builder</string>
+    <string name="create_new">Новый город</string>
+    <string name="settings">Настройки</string>
+    <string name="enter_name">Введите название города</string>
+    <string name="shop">Магазин</string>
+    <string name="back_to_menu">Выбрать другой город</string>
+    <string name="back">Назад</string>
+    <string name="musicON">Музыка</string>
+    <string name="sounds">Звуки</string>
+    <string name="menu">Меню</string>
+    <string name="constructions">Мои постройки</string>
+    <string name="no_constructions">У вас ещё нет построек</string>
+    <string name="press_to_screen">Нажмите на экран для продолжения!</string>
+    <string name="propose_shop">Посетите магазин.</string>
+    <string name="question"> Вы хотите удалить этот город?</string>
+    <string name="count">Count: </string>
+    <string name="rightBracket">)</string>
+    <string name="leftBracket">(</string>
+
+    <string name="rules">Как играть</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+
+
+    <string name="correct">Неправильное имя города</string>
+
+    <string name="nomoney">Недостаточно денег</string>
+
+    <string name="clean">Расчистите место</string>
+
+    <string name="stop">Район занят</string>
+
+    <string name="not_water">Постройка не водная</string>
+    <string name="need_water">Можно разместить только на воде</string>
+
+    <string name="yet">Уже застроено</string>
+
+    <string name="choose">Выберите место!</string>
+    <string name="buy_title">Купите клетку!</string>
+
+    <string name="choose_direction">Выберите направление для вашего города</string>
+
+    <string name="indInit">Ваш город стал индустриальным</string>
+
+    <string name="resInit">Ваш город стал курортным</string>
+
+    <string name="sciInit">Ваш город стал научным</string>
+    <string name="aver">Ваш город вырос до среднего</string>
+
+    <string name="big">Ваш город вырос до большого</string>
+
+    <string name="megapolis">Ваш город стал мегаполисом</string>
+
+    <string name="capital">Ваш город вырос до столицы</string>
+
+
+    <string name="newBuildings">В магазине появились новые постройки</string>
+
+    <string name ="taxes">Эффект</string>
+    <string name="effect_def">\u0020денег от граждан</string>
+    <string name="effect_ind">\u0020денег от построек</string>
+    <string name="effect_res">\u0020денег от туристов</string>
+    <string name="effect_sci">\u0020экологии от науки</string>
+
+    <string name="lvl1">На этом уровне задаётся направление города. Купите несколько построек!</string>
+    <string name="lvl2">Вы достигли следующего уровня! Купите остальные постройки, чтобы увеличить ваш город и сделать его разнообразнее.</string>
+    <string name="lvl3">Теперь купите специализированные постройки.</string>
+    <string name="lvl4">Теперь купите специализированные постройки.</string>
+    <string name="lvl5">Город выростет до столицы, если будет застроена вся территория и куплены новые постройки.</string>
+    <string name="lvl6">Постройте три главых объекта</string>
+
+
+    <string-array name="object_attributes">
+        <item>\u0020</item>
+        <item>\u0020денег</item>
+        <item>\u0020чел.</item>
+        <item>\u0020туристов</item>
+        <item>\u0020экологии</item>
+        <item>\u0020науки</item>
+        <item>\u0020настр.</item>
+        <item>Цена:\u0020</item>
+    </string-array>
+
+    <string-array name="city_attributes">
+        <item>Деньги:\u0020</item>
+        <item>Горожане:\u0020</item>
+        <item>Туристы:\u0020</item>
+        <item>Экология:\u0020</item>
+        <item>Наука:\u0020</item>
+        <item>Настроение:\u0020</item>
+    </string-array>
+
+    <string-array name="all_types">
+        <item>Обычные</item>
+        <item>Индустриальные</item>
+        <item>Курортные</item>
+        <item>Научные</item>
+    </string-array>
+
+    <string-array name="all_types_city">
+        <item>Обычный</item>
+        <item>Индустриальный</item>
+        <item>Курортный</item>
+        <item>Научный</item>
+    </string-array>
+
+    <string-array name="levels_of_city">
+        <item>Не\u0020определён</item>
+        <item>Посёлок</item>
+        <item>Небольшой\u0020город</item>
+        <item>Средний\u0020город</item>
+        <item>Большой\u0020город</item>
+        <item>Мегаполис</item>
+        <item>Столица</item>
+    </string-array>
+
+
+    <!--СТАНДАРТНЫЕ 1 уровень-->
+    <string name="House">Жилой\u0020комплекс</string>
+    <string name="Store">Магазин</string>
+    <string name="Hospital">Больница</string>
+
+    <!--СТАНДАРТНЫЕ дальшеь-->
+    <string name="Sanatorium">Санаторий</string>
+    <string name="Seafront">Набережная</string>
+    <string name="Town_Square">Городская площадь</string>
+
+    <!--ИНДУСТРИАЛЬНЫЕ 1 уровень-->
+    <string name="Gas_station">Заправка</string>
+    <string name="Stock">Склад</string>
+    <string name="Factory">Фабрика</string>
+
+    <!--ИНДУСТРИАЛЬНЫЕ 2 уровень-->
+    <string name="Mine">Шахта</string>
+    <string name="Incinerator">Мусоросжигательный\u0020завод</string>
+    <string name="Solar_panels">Солнечные\u0020батареи</string>
+
+    <!--ИНДУСТРИАЛЬНЫЕ 3 уровень-->
+    <string name="Oiltower">Нефтяная\u0020башня</string>
+    <string name="Automotive_Center">Автомобильный\u0020центр</string>
+    <string name="Engineering_plant">Машинностроительный\u0020завод</string>
+
+    <!--ИНДУСТРИАЛЬНЫЕ 4 уровень-->
+    <string name="Transport_Interchange">Транспортная\u0020развязка</string>
+    <string name="ConcreteMixinPlant">Бетонный\u0020завод</string>
+    <string name="Hydroelectric">Гидроэлектростанция</string>
+
+    <!--ИНДУСТРИАЛЬНЫЕ 5 уровень-->
+    <string name="GasPowerPlant">Газовая\u0020электростанция</string>
+    <string name="MissilesFactory">Ракетостроительный\u0020завод</string>
+    <string name="RecyclingFactory">Завод\u0020по\u0020переработке\u0020отходов</string>
+
+
+    <!--ИНДУСТРИАЛЬНЫЕ 6 уровень-->
+    <string name="Nuclear">Атомная\u0020электростанция</string>
+    <string name="Robot_Factory">Завод\u0020роботов</string>
+    <string name="Cosmodrome">Космодром</string>
+
+
+     <!--КУРОРТНЫЕ 1 уровень-->
+    <string name="Park">Парк</string>        
+    <string name="Café">Кафе</string>    
+    <string name="Motel">Мотель</string>    
+    
+    <!--КУРОРТНЫЕ 2 уровень-->
+    <string name="TrainStation">Железнодорожный\u0020Вокзал</string>
+    <string name="Restaurant">Ресторан</string> 
+    <string name="Theater">Театр</string>      
+
+    <!--КУРОРТНЫЕ 3 уровень-->
+    <string name="Hotel">Отель</string>
+    <string name="Circus">Цирк</string>    
+    <string name="Port">Порт</string>        
+
+    <!--КУРОРТНЫЕ 4 уровень-->
+    <string name="Water">Аквапарк</string>   
+    <string name="Zoo">Зоопарк</string> 
+    <string name="Dolphinarium">Дельфинариум</string>
+
+    <!--КУРОРТНЫЕ 5 уровень-->
+    <string name="Amusement">Парк\u0020развлечений</string>  
+    <string name="Airport">Аэропорт</string>            
+    <string name="Casino">Казино</string>      
+            
+    <!--КУРОРТНЫЕ 6 уровень-->
+    <string name="Stadium">Стадион</string>
+    <string name="Castle">Дворец</string>
+    <string name="Monument">Монумент</string>
+
+    <!--ОБРАЗОВАТЕЛЬНЫЕ 1 уровень-->
+    <string name="School">Школа</string>        
+    <string name="Planetarium">Планетарий</string>  
+    <string name="Exhibition">Выставка</string> 
+     
+    <!--ОБРАЗОВАТЕЛЬНЫЕ 2 уровень-->
+    <string name="ArtCenter">Центр\u0020творчества</string>  
+    <string name="MusSchool">Музыкальная\u0020школа</string>
+    <string name="LitMuseum">Библиотека</string>
+
+    <!--ОБРАЗОВАТЕЛЬНЫЕ 3 уровень-->
+    <string name="EducationCen">Образовательный\u0020центр</string>
+    <string name="HistoricalMuseum">Исторический\u0020музей</string>
+    <string name="ArtSchool">Художественная\u0020школа</string>
+
+    <!--ОБРАЗОВАТЕЛЬНЫЕ 4 уровень-->
+    <string name="HumanitiesUn">Гуманитарный\u0020университет</string>
+    <string name="TechMuseum">Технический\u0020музей</string>
+    <string name="TechnicalUn">Технический\u0020университет</string>  
+
+    <!--ОБРАЗОВАТЕЛЬНЫЕ 5 уровень-->
+    <string name="ScienceCen">Научный\u0020центр</string> 
+    <string name="BiologicalUn">Биологический\u0020университет</string>   
+    <string name="Lab">Лаборатория</string> 
+           
+    <!--ОБРАЗОВАТЕЛЬНЫЕ 6 уровень-->
+    <string name="HadronCol">Адронный\u0020коллайдер</string>
+    <string name="InternationalLinearCollider">Международный\u0020линейный\u0020коллайдер</string>
+    <string name="Portal">Портал</string>
+
+
+    <!-- СОБЫТИЯ -->
+    <string name="storm">В вашем городе была буря.</string>
+    <string name="rain">В вашем городе прошёл дождь, экология улучшилась!</string>
+    <string name="weather_tourist">Из-за плохой погоды сегодня мало туристов...</string>
+    <string name="damage">Урон:</string>
+      
+
+    <!-- Конец игры -->
+
+    <string name="victory">Победа</string>
+    <string name="GameOver">Конец игры</string>
+    <string name="countConstr">Количество построек:\u0020</string>
+    <string name="countSteps">Шаг:\u0020</string>
+    <string name="message_about_game_over">Попробуйте снова.</string>
+    <string name="message_about_victory">Поздравляем!</string>
+      
+      
+       <string name="victory_capital">Столица процветает!</string>
+    <string name="game_over_money">Ваш город банкрот!</string>
+    <string name="game_over_ecology">В городе испортилась экология!</string>
+    <string name="game_over_mood">Ваш город перестал развиваться!</string>
+    <string name="game_over_sci">Ваш научный город не может конкурировать с другими!</string>
+
+
+    <string name="rules_of_game1">
+
+        Приветствуем вас в игре "City Builder"! Чтобы достичь победы, вы должны развивать ваш город.
+        На первом этапе вам даётся территория с лесом и три свободных клетки. Лес нужно расчищать и застраивать.
+        На застроенные участки вы можете ставить здания, которые приобретаются в магазине. Каждое здание обладает уникальными
+        характеристиками, которые вам придётся учитывать, чтобы не проиграть. Нажмите на вид вашего города, чтобы ознакомиться
+        со списком построек и подсказками.
+
+    </string>  
+    <string name="rules_of_game2">
+        Если вы долго не будете расширять ваш город, настроение горожан начнёт падать и в итоге вы проиграете.
+        При нажатии на зелёную стрелку происходит следующий шаг. Благодаря этому
+        осуществляется прогресс в игре. Ваш город получает эффекты от зданий с каждым шагом. Так же может что-то случиться!
+        </string> 
+    <string name="rules_of_game3">
+        Со временем ваш город приобретает уникальное направление - он может быть индустриальным, курортным
+        или научным. Какое направление будет у вашего города зависит от первых купленных построек.
+        Направление города определяет, какие здания в дальнейшем будут доступны в магазине, как город будет развиваться,
+        его победу или проигрыш. Но победа происходит в одном случае - если куплены все здания.
+     </string>  
+    <string name="rules_of_game4">
+        Индустриальное направление позволит вам ставить заводы и фабрики, а в конце построить космический порт и завод с роботами. Но
+        при этом страдает экология, поэтому следует поторопиться. Дожди делают воздух над городом чище.
+     </string>  
+     <string name="rules_of_game5">
+        Курортное направление позволит вам строить театры и стадионы, и в итоге создать уникальные достопримечательности.
+</string>  
+     <string name="rules_of_game6">
+        Научное направление разрешит ставить университеты и научные центры. Если вы доберётесь до последнего уровня, то
+        совершится научный прорыв. Но вам нужно уложиться всего в 115 шагов, поскольку наука не стоит на месте.
+    </string>  
+     <string name="rules_of_game7">
+        Если у вашего города будет долг в 100 монет, экология или настроение горожан упадёт ниже 500, то вы проиграете.
+    </string>  
+         <string name="rules_of_game8">
+        Вы можете самостоятельно удалить город, сделав долгое нажатие по нему в главном меню.
+    </string>  
+
+
+
+      
+      
+
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorMain"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/music_switch_compat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:textSize="@dimen/spvalue40"
+        android:text="@string/musicON"
+        android:textOff="OFF"
+        android:textOn="ON"
+      />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/sounds_switch_compat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:textSize="@dimen/spvalue40"
+        android:text="@string/sounds"
+        android:textOff="OFF"
+        android:textOn="ON"
+        />
+    </LinearLayout>
+    <Button
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/design"
+        android:onClick="btnClick"
+        android:textColor="@drawable/text_anim"
+        android:textSize="@dimen/spvalue30"
+        android:id="@+id/rulesBTN"
+        android:text="@string/rules"/>
+</LinearLayout>

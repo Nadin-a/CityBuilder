@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorMain">#EEE8AA</color>
+    <color name="colorButton">#EEE8AA</color>
+    <color name="colorStroke">#BDB76B</color>
+    <color name="colorCityBack">#1e8a1e</color>
+    <color name="colorInfo">#a9f9a5</color>
+    <color name="colorMessageInfo">#cacaca</color>
+    <color name="light_font">#FBFBFB</color>
+    <color name="grey_font">#ff9e9e9e</color>
+    <color name="text_shadow">#7F000000</color>
+    <color name="text_shadow_white">#FFFFFF</color>
+
+</resources>

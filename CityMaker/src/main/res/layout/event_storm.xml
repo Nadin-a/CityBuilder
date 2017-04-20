@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/storm"
+    android:onClick="layoutClick"
+    android:id="@+id/event_storm"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorMessageInfo"
+        android:layout_margin="@dimen/dp30"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:alpha="0.6">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weather_eventTV"
+            android:textSize="@dimen/spvalue40"
+            android:text="@string/storm"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/spvalue40"
+            android:id="@+id/damageLabel"
+            android:text="@string/damage"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/spvalue40"
+                android:id="@+id/damageTV" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/spvalue40"
+            android:text="@string/press_to_screen"/>
+
+    </LinearLayout>
+
+</LinearLayout>
